@@ -8,6 +8,7 @@
     "format": "prettier --write .",
     "format-check": "prettier --check .",
     "lint": "eslint .",
+    "md-to-html": "node md-to-html.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Edon Malushaj",
@@ -16,6 +17,7 @@
   "dependencies": {
     "chalk": "^5.3.0",
     "eslint": "^9.16.0",
+    "marked": "^15.0.3",
     "prettier": "^3.4.2"
   }
 }
